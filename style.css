@@ -7,6 +7,10 @@
 body{
     position: relative;
 }
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -47,5 +51,59 @@ margin-left: 10px;
     transform: scale(1.1);
 }
 #blog-container{
-    margin: 3rem 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.blog-card{
+    width: 280px;
+    border: 1px solid #7c848a;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 1rem;
+    transition: all linear 0.2s;
+}
+.blog-card:hover{
+    transform: scale(1.04);
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.blog-card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.blog-card p{
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+@media(max-width: 526px) {
+    .navbar .logo {
+       
+        font-size: 1.8rem;
+    }
+    #search-input {
+        width: 180px;
+        padding: 10px 10px;
+      
+    }
+    #search-btn {
+        
+        padding: 10px 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        
+        margin-left: 5px;
+        
+    }
+    .blog-card{
+        width: 100%;
+    }
+
 }
