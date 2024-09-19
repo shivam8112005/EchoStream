@@ -26,6 +26,19 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 2.2rem;
+    /* display: flex;
+    align-items: center; */
+}
+.logo-div img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 15px;
+    /* margin-right: 1rem; */
+}
+.logo-div{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
 }
 #search-input{
     max-width: 400px;
@@ -83,7 +96,7 @@ margin-left: 10px;
     padding-top: 0.5rem;
     font-size: 1.2rem;
 }
-@media(max-width: 526px) {
+@media(max-width: 703px) {
     .navbar .logo {
        
         font-size: 1.8rem;
@@ -107,6 +120,20 @@ margin-left: 10px;
     }
 
 }
-@media(max-width: 420px){
+
+@media(max-width: 560px) {
+    .navbar{
+        display: block;
+       
+        text-align: center;
+    }
+    .logo-div{
+       justify-content:center;
+    }
+    .search-container{
+        margin: 15px;
+    }
     
+
 }
+
