@@ -20,7 +20,7 @@ Getting Started
 Prerequisites
 To run this project locally, you just need a browser.
 
-# Demo
+
 
 
 
