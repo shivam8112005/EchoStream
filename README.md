@@ -1,7 +1,7 @@
-EchoStream
+#EchoStream
 EchoStream is a fully responsive news application built using HTML, CSS, and JavaScript. This app allows users to browse the latest news articles in a clean and modern interface, with seamless adjustments for any screen size, from mobile devices to desktops.
 
-Features
+#Features
 Responsive Design: EchoStream is fully responsive, ensuring a great user experience on all screen sizes, from smartphones to large desktop monitors.
 Clean UI: A minimalist and intuitive user interface for effortless navigation and article browsing.
 Real-time News: Fetches the latest news articles using an API (or sample data, depending on implementation).
