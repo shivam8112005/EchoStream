@@ -30,7 +30,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/EchoStream.git
+git clone https://github.com/shivam8112005/EchoStream.git
 Navigate to the project folder:
 
 bash
