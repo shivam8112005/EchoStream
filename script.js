@@ -9,6 +9,8 @@ async function fetchRandomNews(){
         const response=await fetch(url);
         const data=await response.json();
         console.log(data);
+        console.log(data.articles);
+        console.log("sexyyyy");
         return data.articles;
     }catch(e){
      console.error("Error in Fetching Random News !");
